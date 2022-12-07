@@ -15,11 +15,6 @@
    margin-bottom: 40px;
 }
 
-h2 {
-   margin-bottom: 40px;
-   color: #fff;
-}
-
 p {
    color: #ffffff60;
    margin: 0;
@@ -96,6 +91,8 @@ header {
 h2 {
    display: flex;
    justify-content: center;
+   color: #fff;
+   margin-bottom: 40px;
 }
 
 .perfil-logo {
