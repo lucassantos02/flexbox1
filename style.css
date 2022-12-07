@@ -1,0 +1,104 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+   width: 700px;
+   margin: auto;
+   text-align: center;
+}
+
+.emblema-KFLIX {
+   text-align: center;
+   margin-top: 80px;
+   margin-bottom: 40px;
+}
+
+h2 {
+   margin-bottom: 40px;
+}
+
+p {
+   color: #ffffff60;
+   margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+ul {
+   list-style: none;
+}
+
+.photo-hover {
+   height: 160px;
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+p:hover {
+   color: #ffffff;
+}
+
+.photo-hover> li > figure > img:hover {
+   border: 1px solid #ffffff;
+}
+
+.photo-hover> li > figure > img {
+   border: 1px solid transparent;
+}
+
+ul li {
+   box-sizing: border-box;
+}
+
+ul li img {
+   min-height: 160px;
+    min-width: 160px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+   box-sizing: border-box;
+   border: 1.5px solid #ffffff;
+   border-radius: 8px;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 21px;
+   color: #ffffff;
+   background-color: #121214;
+   width: 200px;
+   height: 50px;
+   text-align: center;
+   cursor: pointer;
+   margin: 40px;
+   margin-top: 80px;
+}
+
+.hover-button:hover {
+   background-color: #ffffff60;
+}
+
+body {
+   background-color: black;
+}
+
+header {
+   display: flex;
+   justify-content: center;
+}
+
+h2 {
+   display: flex;
+   justify-content: center;
+}
+
+.perfil-logo {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
