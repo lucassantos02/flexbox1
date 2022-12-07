@@ -79,6 +79,13 @@ button {
    background-color: #ffffff60;
 }
 
+h2 {
+   display: flex;
+   justify-content: center;
+   color: #fff;
+   margin-bottom: 40px;
+}
+
 body {
    background-color: black;
 }
@@ -86,13 +93,6 @@ body {
 header {
    display: flex;
    justify-content: center;
-}
-
-h2 {
-   display: flex;
-   justify-content: center;
-   color: #fff;
-   margin-bottom: 40px;
 }
 
 .perfil-logo {
